@@ -5,4 +5,4 @@
 # imposta la coda di esecuzione
 #PBS -q short_cpuQ
 module load mpich-3.2
-mpirun.actual -n 4 ../mpi-hello-world/mpi-hello
+mpirun.actual -n 4 ./mpi-hello
