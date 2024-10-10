@@ -1,0 +1,5 @@
+# get rid of all the output files
+*.o*
+
+# get rid of all the error files
+*.e*
