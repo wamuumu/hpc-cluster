@@ -5,4 +5,8 @@
 # imposta la coda di esecuzione
 #PBS -q short_cpuQ
 module load mpich-3.2
-mpirun.actual -n 4 ./mpi-hello
+
+# esegue il programma partendo dalla home directory, pertanto specifica percorso completo 
+# oppure cambia la directory di lavoro con cd
+# cd ./hpc-cluster/mpi-hello-world
+mpirun.actual -n 4 ./hpc-cluster/mpi-hello-world/mpi-hello
